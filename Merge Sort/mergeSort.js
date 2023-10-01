@@ -3,7 +3,7 @@ let newArray ;
 
 function MergeSort(newArray,startPoint,mid,endPoint) {
     let index = 0 ,
-        midll = mid - 1 ;// This End Point in order To Startpoint
+        midll = mid - 1 ;// This Be End Point in order To Startpoint
         numberOfElements = endPoint - startPoint  + 1 ,
         dis = startPoint ;
         while( startPoint <= midll && mid <= endPoint ) {
