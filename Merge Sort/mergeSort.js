@@ -43,6 +43,7 @@ console.log(`The Array Befor Sorted :`) ;
 console.log(sortArray)
 
 console.log(`The Array After Sorted :`) ;
-newArray = [...Array(sortArray.length)] ;// Create Empty Array
+newArray = [...Array(sortArray.length)]
 reMergeSort(newArray , 0 , sortArray.length - 1) ;
 console.log(sortArray);
+
